@@ -1,4 +1,4 @@
-# SIRA — Learning the SIR Epidemic Model
+<img width="2234" height="2429" alt="image" src="https://github.com/user-attachments/assets/753775e2-2749-474e-9159-6f1539cbb7c9" /># SIRA — Learning the SIR Epidemic Model
 ### GSoC 2026 · HumanAI Foundation · Self-Initiated Evaluation
 
 > **Project:** Learning the Susceptible-Infected-Removed Model  
@@ -89,7 +89,7 @@ We verify this empirically by running 200 independent Gillespie simulations at �
 
 **Result:** The stochastic mean (coloured lines) tracks the deterministic ODE (black dashed) with near-perfect agreement. Individual trajectories show realistic random variation around this mean.
 
-![Sanity Check](sir_ensemble.png)
+
 
 ---
 
@@ -168,8 +168,6 @@ Output: (S/N, I/N, R/N)         — 3 values in [0,1]
 
 Train and validation loss track each other closely throughout — **no overfitting**. Final Val MSE: **0.000060**.
 
-![Loss Curve](loss_curve.png)
-
 ---
 
 ## Section 6 & 7 — Evaluation on Unseen Parameters
@@ -185,7 +183,6 @@ The critical test: evaluate on **4 (β, γ) pairs that were never in the trainin
 
 All MAE values are **below 10 counts out of N=1000 (< 1% error)**. The I (Infected) compartment shows slightly higher error near the epidemic peak — expected, as the peak is the sharpest nonlinear feature in the trajectory.
 
-![Evaluation](mlp_evaluation.png)
 
 ---
 
