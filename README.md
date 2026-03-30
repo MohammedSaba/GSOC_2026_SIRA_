@@ -89,6 +89,7 @@ We verify this empirically by running 200 independent Gillespie simulations at �
 
 **Result:** The stochastic mean (coloured lines) tracks the deterministic ODE (black dashed) with near-perfect agreement. Individual trajectories show realistic random variation around this mean.
 
+<img width="1000" height="250" alt="image" src="https://github.com/user-attachments/assets/e7418940-57d8-4057-8c08-8c156a7c5013" />
 
 
 ---
@@ -168,7 +169,7 @@ Output: (S/N, I/N, R/N)         — 3 values in [0,1]
 
 Train and validation loss track each other closely throughout — **no overfitting**. Final Val MSE: **0.000060**.
 
-<img width="983" height="381" alt="image" src="https://github.com/user-attachments/assets/e020758a-9049-42db-ad76-df7598a38c2c" />
+<img width="750" height="250" alt="image" src="https://github.com/user-attachments/assets/e020758a-9049-42db-ad76-df7598a38c2c" />
 
 
 ---
@@ -186,7 +187,8 @@ The critical test: evaluate on **4 (β, γ) pairs that were never in the trainin
 
 All MAE values are **below 10 counts out of N=1000 (< 1% error)**. The I (Infected) compartment shows slightly higher error near the epidemic peak — expected, as the peak is the sharpest nonlinear feature in the trajectory.
 
-<img width="1234" height="1429" alt="image" src="https://github.com/user-attachments/assets/1fa0b678-adcb-4cc3-b1b8-613410822403" />
+<img width="900" height="1000" alt="image" src="https://github.com/user-attachments/assets/1fa0b678-adcb-4cc3-b1b8-613410822403" />
+
 ---
 
 ## How to Run
