@@ -168,6 +168,9 @@ Output: (S/N, I/N, R/N)         — 3 values in [0,1]
 
 Train and validation loss track each other closely throughout — **no overfitting**. Final Val MSE: **0.000060**.
 
+<img width="983" height="381" alt="image" src="https://github.com/user-attachments/assets/e020758a-9049-42db-ad76-df7598a38c2c" />
+
+
 ---
 
 ## Section 6 & 7 — Evaluation on Unseen Parameters
