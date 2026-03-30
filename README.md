@@ -1,4 +1,4 @@
-<img width="2234" height="2429" alt="image" src="https://github.com/user-attachments/assets/753775e2-2749-474e-9159-6f1539cbb7c9" /># SIRA — Learning the SIR Epidemic Model
+# SIRA — Learning the SIR Epidemic Model
 ### GSoC 2026 · HumanAI Foundation · Self-Initiated Evaluation
 
 > **Project:** Learning the Susceptible-Infected-Removed Model  
@@ -183,7 +183,7 @@ The critical test: evaluate on **4 (β, γ) pairs that were never in the trainin
 
 All MAE values are **below 10 counts out of N=1000 (< 1% error)**. The I (Infected) compartment shows slightly higher error near the epidemic peak — expected, as the peak is the sharpest nonlinear feature in the trajectory.
 
-
+<img width="1234" height="1429" alt="image" src="https://github.com/user-attachments/assets/1fa0b678-adcb-4cc3-b1b8-613410822403" />
 ---
 
 ## How to Run
