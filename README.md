@@ -89,7 +89,7 @@ We verify this empirically by running 200 independent Gillespie simulations at Î
 
 **Result:** The stochastic mean (coloured lines) tracks the deterministic ODE (black dashed) with near-perfect agreement. Individual trajectories show realistic random variation around this mean.
 
-<img width="1000" height="250" alt="image" src="https://github.com/user-attachments/assets/e7418940-57d8-4057-8c08-8c156a7c5013" />
+<img width="1000" height="350" alt="image" src="https://github.com/user-attachments/assets/e7418940-57d8-4057-8c08-8c156a7c5013" />
 
 
 ---
